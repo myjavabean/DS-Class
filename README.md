@@ -11,3 +11,6 @@ Practice GitHub
 		<p>P tag</p>	
 	</body>
 </html>
+`inline code`
+
+``` def function():```
