@@ -19,12 +19,17 @@ See the following useful **_GitHub Flavor Markdown_** syntax:
 - ~~WDI class not for me~~ __WDS is good__ for me!
 
 **To do _list_**
-[x] study DS 04
-[ ] do homework
-[ ] movie time
+* [x] study DS 04
+* [ ] do homework
+* [ ] movie time
 
 __*Show me how the sorted list works:*__
-1. Denvor
+1. Make code changes
+    i. fix bugs
+   ii. add comments
+  iii. format the code block
+  * make header bigger
+    
 2. Seattle
 3. Washington DC
 
