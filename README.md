@@ -25,7 +25,7 @@ See the following useful **_GitHub Flavor Markdown_** syntax:
 
 __*Show me how the sorted list works:*__
 1. Make code changes
-   i. fix bugs
+   i. fix bugs ?????????????
   ii. add comments
  iii. format the code blocks
     * make indent consistency
