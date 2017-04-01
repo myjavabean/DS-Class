@@ -27,10 +27,9 @@ __*Show me how the sorted list works:*__
 1. Make code changes
   i. fix bugs
   ii. add comments
-  iii. format the code block
-    * make indent consistence
+  iii. format the code blocks
+    * make indent consistency
     * make header bigger
-    
 2. Seattle
 3. Washington DC
 
