@@ -32,8 +32,8 @@ __*Show me how the sorted list works:*__
     * make header bigger
 2. Push my commits to gitHub
 3. Open a pull request
-  - Describe the changes
-  - Mention all the members on the team
+  * Describe the changes
+  * Mention all the members on the team
     * Ask feedback
     * Take neccessry action to the feedback
 
