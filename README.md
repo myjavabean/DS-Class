@@ -24,8 +24,8 @@ See the following useful **_GitHub Flavor Markdown_** syntax:
 * movie time
 
 __*Show me how the sorted list works:*__
-1 Denvor
-2 Seattle
-3 Washington DC
+1. Denvor
+2. Seattle
+3. Washington DC
 
 This is a link [Link to gitHub](http://gitbub.com)
