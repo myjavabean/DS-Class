@@ -30,7 +30,11 @@ __*Show me how the sorted list works:*__
  iii. format the code blocks
     * make indent consistency
     * make header bigger
-2. Seattle
-3. Washington DC
+2. Push my commits to gitHub
+3. Open a pull request
+  - Describe the changes
+  - Mention all the members on the team
+    * Ask feedback
+    * Take neccessry action to the feedback
 
 This is a link [Link to gitHub](http://gitbub.com)
