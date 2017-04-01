@@ -19,9 +19,9 @@ See the following useful **_GitHub Flavor Markdown_** syntax:
 - ~~WDI class not for me~~ __WDS is good__ for me!
 
 **To do _list_**
-* study DS 04
-* do homework
-* movie time
+[x] study DS 04
+[ ] do homework
+[ ] movie time
 
 __*Show me how the sorted list works:*__
 1. Denvor
