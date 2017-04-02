@@ -1,23 +1,23 @@
 # lesson 04 Homework: Command Line Chipotle
-1. Look at the head and the tail of **chipotle.tsv** in the **data** subdirectory of this repo. Think for a minute about how the data is structured. What do you think each column means? What do you think each row means? Tell me! (If you're unsure, look at more of the file contents.) 
-  *Answer*:
+1. Look at the head and the tail of **chipotle.tsv** in the **data** subdirectory of this repo. Think for a minute about how the data is structured. What do you think each column means? What do you think each row means? Tell me! (If you're unsure, look at more of the file contents.) *Answer*:
   - Use command `head -5 chipotle.txt` to look the first 5 lines, and use `tail chipotle.txt` to look the last 10 lines of the file
   - The column names describe an order: _order id, quantity, item name, choice description_ and _item price_
   - Each row represents the item(s) ordered in a particular order (associated with an unique order id); 
-2. How many orders do there appear to be? 
-  *Answer*
-  - The first column is the order id, cound the uniqe order id with command: `cut -f1 chipotle.txt | sort | uniq | wc -l` which gives 1835, then minus 1 for column header, so the total unique orders id is 1834.
-3. How many lines are in this file?
-  - Use command: `cat chipotle.txt | wc -l`, gives 4623, which includes column header line
-  
- 
- 
- 
- 
- How many orders do there appear to be?
-How many lines are in this file?
 
-Which burrito is more popular, steak or chicken?
+2. How many orders do there appear to be? *Answer*:
+  - The first column is the order id, cound the uniqe order id with command: `cut -f1 chipotle.txt | sort | uniq | wc -l` which gives 1835, then minus 1 for column header, so the total unique orders id is 1834.
+  
+3. How many lines are in this file? *Answer*:
+  - Use command: `cat chipotle.txt | wc -l`, gives 4623, which includes column header line
+
+4. Which burrito is more popular, steak or chicken? *Answer*:
+  - 
+ 
+ 
+ 
+
+
+
 
 Do chicken burritos more often have black beans or pinto beans?
 
