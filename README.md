@@ -10,7 +10,7 @@
 3. How many lines are in this file?  *Answer*:
   - Use command: **`cat chipotle.tsv | wc -l`**, gives **4623**, which includes column header line
 
-4. Which burrito is more popular, steak or chicken?  *Answer*:
+4. Which burrito is more popular, steak or chicken?  *Answer*: **Chicken Burrit** is popular!
   - command `cut -f2,3 chipotle.txt|grep 'Steak Burrito'|sort|uniq -c` outputs:
     * 352,  1,	 Steak Burrito
     * 14,   2,	 Steak Burrito
