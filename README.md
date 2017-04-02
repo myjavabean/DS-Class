@@ -12,25 +12,33 @@
 
 4. Which burrito is more popular, steak or chicken?  *Answer*: **Chicken Burrit** is popular!
   - command `cut -f2,3 chipotle.txt|grep 'Steak Burrito'|sort|uniq -c` outputs:
-    * 352,  1,	 Steak Burrito
-    * 14,   2,	 Steak Burrito
-    * 2,    3,	 Steak Burrito
+    * 352, 1,	Steak Burrito
+    * 14, 2, Steak Burrito
+    * 2, 3,	Steak Burrito
 
   351 order each has 1 Steak Burrito, 14 orders each has 2 Steak Burritos, 2 orders each has 3 Steak Burritos, so total is         **352*1+14*2+2*3=386**
 
   - command `cut -f2,3 chipotle.txt|grep 'Chicken Burrito'|sort|uniq -c` outputs:
-    * 521,  1,	Chicken Burrit
-    * 28,   2,	Chicken Burrito
-    * 2,    3,	Chicken Burrito
-    * 2,    4,	Chicken Burrito
+    * 521, 1,	Chicken Burrit
+    * 28, 2, Chicken Burrito
+    * 2, 3,	Chicken Burrito
+    * 2, 4,	Chicken Burrito
       
   521 orders each has 1 Chicken Burrit, 28 orders each has 2 Chicken Burritos, 2 orders each has 3 Chicken Buritos, and 2 orders each has 4 Chicken Burritos, so total is **521*1+28*2+2*3+2*4=591**
 
-5. Do chicken burritos more often have black beans or pinto beans?  *Answer*
+5. Do chicken burritos more often have black beans or pinto beans?  *Answer*: more often have **Black Beans**
   - command `cat chipotle.txt|grep 'Chicken Burrito'|grep 'Black Beans'|cut -f2,3|sort|uniq -c` output:
     * 261, 1,	Chicken Burrito
     * 19, 2,	Chicken Burrito
     * 2, 4,	Chicken Burrito
+    
+  Total of Black Beans Chicken Burrito is **261*1+19*2+2*4=307**
+  
+  -  command `cat chipotle.txt|grep 'Chicken Burrito'|grep 'Pinto Beans'|cut -f2,3|sort|uniq -c` output:
+    * 102, 1,	Chicken Burrito
+    * 3, 2,	Chicken Burrito
+    
+    Total of Pinto Beans Chicken Burrito is **102*1+3*2=108**
 
  
  
