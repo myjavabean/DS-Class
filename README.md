@@ -1,8 +1,9 @@
 # lesson 04 Homework: Command Line Chipotle
-1. Look at the head and the tail of **chipotle.tsv** in the **data** subdirectory of this repo. Think for a minute about how the data is structured. What do you think each column means? What do you think each row means? Tell me! (If you're unsure, look at more of the file contents.)
+1. Look at the head and the tail of **chipotle.tsv** in the **data** subdirectory of this repo. Think for a minute about how the data is structured. What do you think each column means? What do you think each row means? Tell me! (If you're unsure, look at more of the file contents.) 
   *Answer*:
-  - Use command `head -5 chipotle.txt` to look the first 5 lines, and use `tail chipotle.txt to look the last 10 lines of the file
-  - The column names describe an order 
+  - Use command `head -5 chipotle.txt` to look the first 5 lines, and use `tail chipotle.txt` to look the last 10 lines of the file
+  - The column names describe an order: _order id, quantity, item name, choice description_ and _item price_
+  - Each row represents the item ordered in an order (associated with an unique order id); Different item ordered in the same order id has it own entry line.
   
   
   
