@@ -3,11 +3,30 @@
   *Answer*:
   - Use command `head -5 chipotle.txt` to look the first 5 lines, and use `tail chipotle.txt` to look the last 10 lines of the file
   - The column names describe an order: _order id, quantity, item name, choice description_ and _item price_
-  - Each row represents the item ordered in an order (associated with an unique order id); Different item ordered in the same order id has it own entry line.
+  - Each row represents the item(s) ordered in a particular order (associated with an unique order id); 
+2. How many orders do there appear to be? 
+  *Answer*
+  - The first column is the order id, cound the uniqe order id with command: `cut -f1 chipotle.txt | sort | uniq | wc -l` which gives 1835, then minus 1 for column header, so the total unique orders id is 1834.
+3. How many lines are in this file?
+  - Use command: `cat chipotle.txt | wc -l`, gives 4623, which includes column header line
   
-  
-  
-  
+ 
+ 
+ 
+ 
+ How many orders do there appear to be?
+How many lines are in this file?
+
+Which burrito is more popular, steak or chicken?
+
+Do chicken burritos more often have black beans or pinto beans?
+
+Make a list of all of the CSV or TSV files in the [our class repo] (https://github.com/ga-students/DS-SEA-3). repo (using a single command). You will be working on your local repo on your laptop. Think about how wildcard characters can help you with this task.
+
+Count the approximate number of occurrences of the word "dictionary" (regardless of case) across all files of [our class repo] (https://github.com/ga-students/DS-SEA-3).
+
+Optional: Use the the command line to discover something "interesting" about the Chipotle data. Try using the commands from the "advanced" section!
+
 See the following useful **_GitHub Flavor Markdown_** syntax:
 - This is **inline code** like pip command: `sort file.txt| uniq | wc -l` which asked alot during the interview
 - This is *inline code block*:
