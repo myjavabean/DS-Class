@@ -24,7 +24,8 @@
     * 2, 3,	Chicken Burrito
     * 2, 4,	Chicken Burrito
       
-  521 orders each has 1 Chicken Burrit, 28 orders each has 2 Chicken Burritos, 2 orders each has 3 Chicken Buritos, and 2 orders each has 4 Chicken Burritos, so total is **521*1+28*2+2*3+2*4=591**
+  521 orders each has 1 Chicken Burrit, 28 orders each has 2 Chicken Burritos, 2 orders each has 3 Chicken Buritos, and 2 orders each has 
+  4 Chicken Burritos, so total is **521*1+28*2+2*3+2*4=591**
 
 5. Do chicken burritos more often have black beans or pinto beans?  *Answer*: more often have **Black Beans**
   - command `cat chipotle.txt|grep 'Chicken Burrito'|grep 'Black Beans'|cut -f2,3|sort|uniq -c` output:
@@ -38,55 +39,11 @@
     * 102, 1,	Chicken Burrito
     * 3, 2,	Chicken Burrito
     
-    Total of Pinto Beans Chicken Burrito is **102*1+3*2=108**
+  Total of Pinto Beans Chicken Burrito is **102*1+3*2=108**
+  
+6. Make a list of all of the CSV or TSV files in the [our class repo] (https://github.com/ga-students/DS-SEA-3). repo (using a single command). You will be working on your local repo on your laptop. Think about how wildcard characters can help you with this task.
+  - pwd -> /Users/myusername/desktop/GA-School-DS/DS-Class/DS-Class
+  - `ls -lr ../DS-SEA-06/data/*.tsv ../DS-SEA-06/data/*.csv` -> all the CSV or TSV files
 
- 
- 
- 
+7. Optional: Use the the command line to discover something "interesting" about the Chipotle data. Try using the commands from the "advanced" section!
 
-
-
-
-
-
-Make a list of all of the CSV or TSV files in the [our class repo] (https://github.com/ga-students/DS-SEA-3). repo (using a single command). You will be working on your local repo on your laptop. Think about how wildcard characters can help you with this task.
-
-Count the approximate number of occurrences of the word "dictionary" (regardless of case) across all files of [our class repo] (https://github.com/ga-students/DS-SEA-3).
-
-Optional: Use the the command line to discover something "interesting" about the Chipotle data. Try using the commands from the "advanced" section!
-
-See the following useful **_GitHub Flavor Markdown_** syntax:
-- This is **inline code** like pip command: `sort file.txt| uniq | wc -l` which asked alot during the interview
-- This is *inline code block*:
-    ```
-       ls -a
-       grep -ni 'pandas*' *.*
-       find . -name 'seattle' -print
-    ```
-- This is *** python function code block ***
-    ``` 
-    def function(x):
-        return x**2    
-    ```
-- ~~WDI class not for me~~ __WDS is good__ for me!
-
-**To do _list_**
-* [x] study DS 04
-* [ ] do homework
-* [ ] movie time
-
-__*Show me how the sorted list works:*__
-1. Make code changes
-   i. fix bugs ?????????????
-  ii. add comments
- iii. format the code blocks
-    * make indent consistency
-    * make header bigger
-2. Push my commits to gitHub
-3. Open a pull request
-  * Describe the changes ????????????
-  * Mention all the members on the team
-    * Ask feedback
-    * Take neccessry action to the feedback
-
-This is a link [Link to gitHub](http://gitbub.com)
