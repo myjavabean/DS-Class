@@ -1,8 +1,12 @@
-# DS-Class
-## Practice GitHub Markdown (GFM)
-### This is a README.md file
-###### This is smallest font
-
+# lesson 04 Homework: Command Line Chipotle
+1. Look at the head and the tail of **chipotle.tsv** in the **data** subdirectory of this repo. Think for a minute about how the data is structured. What do you think each column means? What do you think each row means? Tell me! (If you're unsure, look at more of the file contents.)
+  *Answer*:
+  - Use command `head -5 chipotle.txt` to look the first 5 lines, and use `tail chipotle.txt to look the last 10 lines of the file
+  - The column names describe an order 
+  
+  
+  
+  
 See the following useful **_GitHub Flavor Markdown_** syntax:
 - This is **inline code** like pip command: `sort file.txt| uniq | wc -l` which asked alot during the interview
 - This is *inline code block*:
