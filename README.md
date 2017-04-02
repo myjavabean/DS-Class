@@ -16,14 +16,15 @@
     * 14   2	 Steak Burrito
     * 2    3	 Steak Burrito
 
-351 order each has 1 Steak Burrito, 14 orders each has 2 Steak Burritos, 2 orders each has 3 Steak Burritos, so total is       352*1+14*2+2*3=386
+  351 order each has 1 Steak Burrito, 14 orders each has 2 Steak Burritos, 2 orders each has 3 Steak Burritos, so total is         352*1+14*2+2*3=386
 
-  - `cut -f2,3 chipotle.txt|grep 'Chicken Burrito'|sort|uniq -c` command outputs:
-      521 1	Chicken Burrit
-      28 2	Chicken Burrito
-      2 3	Chicken Burrito
-      2 4	Chicken Burrito
-      521 orders each has 1 Chicken Burrit, 28 orders each has 2 Chicken Burritos, 2 orders each has 3 Chicken Buritos, and 2 orders each has 4 Chicken Burritos, so total is 521*1+28*2+2*3+2*4=591
+  - command `cut -f2,3 chipotle.txt|grep 'Chicken Burrito'|sort|uniq -c` outputs:
+    * 521  1	Chicken Burrit
+    * 28   2	Chicken Burrito
+    * 2    3	Chicken Burrito
+    * 2    4	Chicken Burrito
+      
+  521 orders each has 1 Chicken Burrit, 28 orders each has 2 Chicken Burritos, 2 orders each has 3 Chicken Buritos, and 2 orders each has 4 Chicken Burritos, so total is 521*1+28*2+2*3+2*4=591
 
  
  
