@@ -16,7 +16,7 @@
     * 14,   2,	 Steak Burrito
     * 2,    3,	 Steak Burrito
 
-  351 order each has 1 Steak Burrito, 14 orders each has 2 Steak Burritos, 2 orders each has 3 Steak Burritos, so total is         352*1+14*2+2*3=386
+  351 order each has 1 Steak Burrito, 14 orders each has 2 Steak Burritos, 2 orders each has 3 Steak Burritos, so total is         **352*1+14*2+2*3=386**
 
   - command `cut -f2,3 chipotle.txt|grep 'Chicken Burrito'|sort|uniq -c` outputs:
     * 521,  1,	Chicken Burrit
@@ -24,7 +24,13 @@
     * 2,    3,	Chicken Burrito
     * 2,    4,	Chicken Burrito
       
-  521 orders each has 1 Chicken Burrit, 28 orders each has 2 Chicken Burritos, 2 orders each has 3 Chicken Buritos, and 2 orders each has 4 Chicken Burritos, so total is 521*1+28*2+2*3+2*4=591
+  521 orders each has 1 Chicken Burrit, 28 orders each has 2 Chicken Burritos, 2 orders each has 3 Chicken Buritos, and 2 orders each has 4 Chicken Burritos, so total is **521*1+28*2+2*3+2*4=591**
+
+5. Do chicken burritos more often have black beans or pinto beans?  *Answer*
+  - command `cat chipotle.txt|grep 'Chicken Burrito'|grep 'Black Beans'|cut -f2,3|sort|uniq -c` output:
+    * 261, 1,	Chicken Burrito
+    * 19, 2,	Chicken Burrito
+    * 2, 4,	Chicken Burrito
 
  
  
@@ -33,7 +39,7 @@
 
 
 
-Do chicken burritos more often have black beans or pinto beans?
+
 
 Make a list of all of the CSV or TSV files in the [our class repo] (https://github.com/ga-students/DS-SEA-3). repo (using a single command). You will be working on your local repo on your laptop. Think about how wildcard characters can help you with this task.
 
