@@ -12,9 +12,9 @@
 
 4. Which burrito is more popular, steak or chicken? *Answer*:
   - `cut -f2,3 chipotle.txt|grep 'Steak Burrito'|sort|uniq -c` command outputs:
-     352 1	Steak Burrito
-     14 2	Steak Burrito
-     2 3	Steak Burrito
+    * 352 1	Steak Burrito
+    * 14 2	Steak Burrito
+    * 2 3	Steak Burrito
      351 order each has 1 Steak Burrito, 14 orders each has 2 Steak Burritos, 2 orders each has 3 Steak Burritos, so total is       352*1+14*2+2*3=386
 
   - `cut -f2,3 chipotle.txt|grep 'Chicken Burrito'|sort|uniq -c` command outputs:
